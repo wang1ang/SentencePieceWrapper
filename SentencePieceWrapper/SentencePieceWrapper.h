@@ -11,7 +11,6 @@ namespace SentencePieceWrapper {
 		SentencePiece();
 		bool Load(String^ filename);
 		array<int> ^Encode(String^ sentencee);
-		//array<int> ^Encode(char *sentencee);
 	private:
 		sentencepiece::SentencePieceProcessor *processor;
 	};
