@@ -6,7 +6,7 @@
 #include <locale>
 #include <codecvt>
 
-using namespace System::Runtime::InteropServices;
+//using namespace System::Runtime::InteropServices;
 using namespace SentencePieceWrapper;
 SentencePiece::SentencePiece()
 {
